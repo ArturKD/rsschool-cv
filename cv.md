@@ -1,3 +1,4 @@
+*************
 # Artur Koshal CV
 ## Junior FrontEnd Developer
 ### To seek and maintain a full-time position that offers professional challenges utilizing interpersonal skills, excellent time management and problem-solving skills.
@@ -5,7 +6,7 @@
 ## Contacts
 * **Phone** +48571085191
 * **E-mail** arturkoshal@gmail.com
-* **github** [ArturKD][https://github.com/ArturKD]
+* **github** [ArturKD](https://github.com/ArturKD)
 ## Code Example 
 ```
 function greaterThanTen(array) {
@@ -30,11 +31,14 @@ September 2011 - May 2017.
 6. Analytical skills
 7. Conflict resolution
 ## Professional experiences
+
 ### Director. Company Eurostore, Minsk, Belarus
 May 2021 - December 2021
-### Project ManagerREMPRO, Minsk, Belarus
+
+### Project Manager. REMPRO, Minsk, Belarus
 June 2020 - May 2021
-### Deputy of Chief EngineerStroyInfoConsult, Minsk, Belarus
+
+### Deputy of Chief Engineer. StroyInfoConsult, Minsk, Belarus
 May 2017 - June 2020
 
 ## Languages 
