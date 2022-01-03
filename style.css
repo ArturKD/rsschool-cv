@@ -1,0 +1,346 @@
+:root {
+    /* colors */
+    --light-grayish-blue: hsl(220, 16%, 96%);
+    --light-gray:         hsl(0, 0%, 98%);
+    --gray-blue:          hsl(233, 8%, 62%);
+    --lime:               hsl(136, 65%, 51%);
+    --dark-blue:          hsl(233, 26%, 24%);
+    --white:              hsl(0, 0%, 100%);
+
+
+
+
+
+    /* spicing */
+    --px: 20px;
+}
+
+
+
+
+
+
+    /* reset */
+*, *::before, *::after {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    border:     none;
+    background: none;
+    font:       inherit;
+    cursor:     pointer;
+}
+html {
+    font-family: 'Public sans', sans-serif;
+    scroll-behavior: smooth;
+}
+img, span, svg {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+    /* Header */
+
+.container-class {
+    max-width: 1440px;
+    margin: auto;
+}
+header {
+    position: fixed;
+    top:  0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+.navbar-class {
+    background: var(--white);
+    display:         flex;
+    justify-content: space-between;
+    padding: 20px var(--px);
+}
+
+.btn-navbar-class {
+    display:        flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 0 20px;
+}
+.btn-navbar-class span {
+    display: block;
+    background: var(--dark-blue);
+    width: 25px;
+    height: 1px;
+    transition: 0.25s ease;
+}
+.btn-navbar-class.active .one {
+    transform: rotate(45deg) translateY(3px);
+}
+
+.btn-navbar-class.active .two {
+    display: none;
+}
+
+.btn-navbar-class.active .three {
+    transform: rotate(-45deg) translateY(-3px);
+}
+
+.list-navbar-class {
+    position: fixed;
+    background: var(--white);
+    top:   60px;
+    left:  20px;
+    right: 20px;
+    display:        flex;
+    flex-direction: column;
+    align-items:    center;
+    gap: 20px;
+    padding: 40px 0;
+    border-radius: 5px;
+    z-index: -1;
+    opacity: 0;
+    transition: 0.5s ease;
+    pointer-events: none;
+}
+
+.list-navbar-class a {
+    color: var(--dark-blue);
+    display: block;
+}
+
+.list-navbar-class.active {
+    top: calc(60px + 20px);
+    opacity: 1;
+    box-shadow: 0 0 100px 100px hsla(233, 26%, 24%, 0.2);
+    pointer-events: all;
+}
+
+
+
+
+
+    /* Main */
+main {
+    overflow: hidden;
+}
+
+.main-container-class {
+    background: var(--light-gray);
+    padding-bottom: 60px;
+}
+
+.main-section {
+    display:         flex;
+    flex: 1;
+    flex-direction:  column;
+    justify-content: center;
+    align-content:   center;
+}
+
+.image-main-container-class {
+    display:    flex;
+    align-self: center;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.main-image-class {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.main-title {
+    font-size: 38px;
+    font-weight: 400;
+    color: var(--dark-blue);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.main-position {
+    margin: auto;
+    color: var(--gray-blue);
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.main-contact-container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    background: var(--light-gray);
+    text-align: center;
+    padding: 20px;
+}
+.contact-button p {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: var(--dark-blue);
+    display: block;
+}
+
+.main-contact-list {
+    background: var(--light-gray);
+    text-align: center;
+    line-height: 2;
+}
+
+
+
+    /* About me */
+.about-me-container-class {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.section-class {
+    padding: 60px var(--px);
+    background: var(--light-grayish-blue);
+    display:        flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.section-class ul li {
+    list-style: circle;
+}
+
+.section-title-class {
+    color: var(--dark-blue);
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.section-text-class {
+    color: var(--gray-blue);
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-icon {
+    align-self: center;
+    width: 40px;
+    height: 40px;
+}
+.footer-section-class {
+    background-color: var(--dark-blue);
+    display:         flex;
+    justify-content: center;
+    align-items:     center;
+    flex-direction:  column;
+    text-align: center;
+    padding: 40px var(--px);
+}
+
+
+
+/* Responsive */
+    @media (min-width: 1200px) {
+    :root { --px: 120px; }
+
+
+        /*navigation*/
+
+        header {
+            position: static;
+        }
+
+        .navbar-class {
+            display: flex;
+            padding: 0 var(--px);
+        }
+
+        .navbar-class img{
+            align-self: center;
+            justify-self: center;
+        }
+
+        .btn-navbar-class {
+            display: none;
+        }
+
+        .list-navbar-class {
+            position: static;
+            padding: 0;
+            z-index: 0;
+            flex-direction: row;
+            gap: 30px;
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .list-navbar-class a {
+            font-size: 20px;
+            color: var(--gray-blue);
+            padding: 30px;
+            transition: 0.25s ease;
+        }
+        .list-navbar-class a:hover {
+            color: var(--dark-blue);
+            box-shadow: inset 0 -3px 0 var(--lime);
+        }
+
+        .navbar-class{
+            font-size: 30px;
+        }
+
+    /*main*/
+    .main-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 100px;
+    }
+    .main-title {
+        font-size: 50px;
+    }
+    .main-position {
+    font-size: 40px;
+}
+    .main-contact-container {
+    font-size: 16px;
+}
+
+    /*about me*/
+    .about-me-container-class{
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 18px;
+}
+    .section-class h2 {
+    font-size: 30px;
+}
+     .footer-section-class {
+         background-color: var(--dark-blue);
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         flex-direction: row;
+         text-align: center;
+         padding: 40px var(--px);
+}
