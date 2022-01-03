@@ -4,127 +4,186 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Resume</title>
+    <!-- css !-->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Google font !-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div>
-                 <h1>
-                         Artur Koshal
-                 </h1>
-                 <h2 style="color: black;">
-                         Junior FrontEnd Developer
-                 </h2>
-                 <p style="color: black;">   
-                        To seek and maintain a full-time position that offers professional challenges utilizing interpersonal skills, excellent time management and problem-solving skills. 
-                </p>
+<!-- Header !-->
+    <div class="container-class">
+        <header>
+            <nav class="navbar-class">
+                <img src="./img/cv.png" alt="cv icon" width="40" height="40">
+                <button class="btn-navbar-class">
+                    <span class="one"></span>
+                    <span class="two"></span>
+                    <span class="three"></span>
+                </button>
+
+                <ul class="list-navbar-class">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#experience">Profession experience</a></li>
+                    <li><a href="#keyskills">Key Skills</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                    <li><a href="#codeexample">Code example</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+
+
+<!-- Main !-->
+        <div class="main-container-class">
+             <main>
+            <!-- Main information Section !-->
+                <section class="main-section">
+                    <div class="image-main-container-class">
+                        <img src="./img/logo.png" alt="Picture about myself" class="main-image-class" width="416" height="416" >
+                    </div>
+                    <div class="main-information-container-class">
+                        <h1 class="main-title">Artur Koshal</h1>
+                        <h2 class="main-position">Junior FrontEnd Developer</h2>
+                    </div>
+                    <div class="main-contact-container">
+                        <div class="contact-button">
+                            <p>Contacts</p>
+                        </div>
+                        <ul class="main-contact-list">
+                            <li>+48571085191</li>
+                            <li>arturkoshal@gmail.com</li>
+                            <li><a href="https://github.com/ArturKD">Github</a></li>
+                            <li><a href="https://t.me/KoshalArtur">Telegram</a></li>
+                            <li>Warsaw. Poland.</li>
+                        </ul>
+                    </div>
+
+                </section>
+
+            <!-- About Me Section !-->
+                 <section class="about-me-container-class">
+                    <div class="section-class" id="about">
+                        <img src="./img/icon-about.svg" alt="icon for about me" class="section-icon">
+                        <h2 class="section-title-class">About me</h2>
+                        <p class="section-text-class>">
+                        To seek and maintain a full-time position that offers professional challenges utilizing interpersonal skills, excellent time management and problem-solving skills.
+                        </p>
+                    </div>
+                     <div class="section-class" id="education">
+                        <img src="./img/icon-education.svg" alt="icon for education" class="section-icon">
+                        <h2 class="section-title-class">Education</h2>
+                        <div class="section-text-class>">
+                            <strong>Bachelor of Science in Power Managment.</strong>
+                         <p>Belarusian National Technical University at Minsk, Belarus.</p>
+                         <p>September 2011 - May 2017</p>
+                        </div>
+                    </div>
+                     <div class="section-class" id="experience">
+                        <img src="./img/icon-experience.svg" alt="icon for experience" class="section-icon">
+                        <h2 class="section-title-class">Professional experience</h2>
+                        <div class="section-text-class>">
+                            <ul>
+                                <li>
+                                    <p><strong>Director.</strong> Company Eurostore, Minsk, Belarus</p>
+                                     <p>May 2021 - December 2021</p>
+                                    <p>Work in a start-up from a holding company to open a chain of convenience stores.</p>
+                                </li>
+                            <li>
+                                <p><strong>Project Manager.</strong> Company REMPRO, Minsk, Belarus.</p>
+                                <p>June 2020 - May 2021</p>
+                                <p>Work in a holding of European companies developing business in the territory of the Republic of Belarus.</p>
+                            </li>
+                            <li>
+                                <p><strong>Deputy of Chief Engineer.</strong> Company StroyInfoConsult, Minsk, Belarus.</p>
+                                <p>May 2017 - June 2020</p>
+                                <p>Work in the customer's / general contractor's service.</p>
+                            </li>
+                            </ul>
+                        </div>
+                     </div>
+                     <div class="section-class" id="keyskills">
+                        <img src="./img/icon-skill.svg" alt="icon for professional skills" class="section-icon">
+                         <h2 class="section-title-class">Key skills</h2>
+                         <ul>
+                             <li>Knowledge in HTML, CSS, JS, Bootstrap, jQuery, SASS, React, Redux.</li>
+                            <li>Knowledge in AutoCad, PhotoShop, CorelDraw, Word, Excel.</li>
+                            <li>Certificate of completion of the course "Labor protection in construction."</li>
+                            <li>Certificate of completion of the course "Building and Construction Maintenance".</li>
+                            <li>Availability of qualification certificates of RUE "Belstroycenter" in the field of construction of objects: "Master (Arrangement of internal and external networks and power supply lines, transformer substations and distribution devices, arrangement of internal power supply systems).</li>
+                            <li>Availability of a "gas worker" certificate and a certificate of advanced training in "GAZ-INSTITUT" as a specialist responsible for the safe operation and repair of gas distribution systems and equipment, boilers.</li>
+                            <li>Group 5 electrical safety approval.</li>
+                            <li>Driving license category B, C. 10 years of experience.</li>
+                            <li>Critical thinking</li>
+                            <li>Responsible</li>
+                            <li>Multitasking abilities</li>
+                            <li>Analytical skills</li>
+                            <li>Conflict resolution</li>
+                        </ul>
+                    </div>
+                        <div class="section-class" id="languages">
+                            <img src="./img/google-translate.svg" alt="icon for language" class="section-icon">
+                             <h2 class="section-title-class">Languages</h2>
+                            <ul>
+                                <li>Belarussian - native</li>
+                                <li> Russian - native</li>
+                                <li>Polish - beginner</li>
+                                <li>English - upper intermediate level</li>
+                            </ul>
+                        </div>
+                        <div class="section-class" id="codeexample">
+                     <img src="./img/code_icon.svg" alt="icon for code example" class="section-icon">
+                     <h2 class="section-title-class">Code example</h2>
+                            <div><pre><code>
+function greaterThanTen(arr) {
+        let newArr = [];
+        for (let i = 0; i > arr.length; i++) {
+                if (arr[i] > 10) {
+                        newArr.push(arr[i]);
+                }
+        }
+        return newArr;
+ }</code></pre></div>
+                        </div>
+
+                </section>
+
+            </main>
         </div>
-    </header>
-    <main>
-        <div>
-                <h2>
-                    Contacts
-                </h2>
-                <Ul>
-                    <li>+375291231957</li>
-                    <li>arturkoshal@gmail.com</li>
-                    <li>https://github.com/ArturKD</li>
-                    <li>Warsaw. Poland.</li>
-                </Ul>
-        </div>
-        <div class="coloumn;">
-        <h2>
-            Professional Experience
-        </h2>
-                 <h3 class="coloumn-left;">
-                    Director. Company Eurostore, Minsk, Belarus 
-                 </h3>
-                 <h4 class="coloumn-left">May 2021 - December 2021</h4>  
 
-<strong>Work in a start-up from a holding company to open a chain of convenience stores.</strong>   
+        <!-- Footer Section !-->
 
-Full planning and management of the start of the project, setting the necessary tasks, studying and analyzing the market and competitors, planning budgets, assessing and selecting rental locations.
+        <footer>
+            <div class="footer-section-class">
+                <div class="github-footer-class">
+                    <a href="https://github.com/arturkd"><img src="img/icon-github.svg" alt="github icon"></a>
+                </div>
+                <div>
+                    <p>2022</p>
+                </div>
+                <div>
+                    <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="RSS Image" width="100"></a>
+                </div>
 
-Search and selection of contractors, partners and suppliers, as well as performers at all levels.
-
-Negotiating with partners, suppliers and contractors on the subject of more favorable terms of cooperation. Getting the highest possible discounts and payment delays.
-
-Maintaining and monitoring the development of design documentation, approvals and permits. Maintaining project development issues, recruiting personnel, setting up the work of departments, launching a production line and testing products.
-
-Management and control over the timely and high-quality execution of construction and installation works in accordance with the schedule for the construction of the facility in full at the facilities.
-
-Control and analysis of prices for raw materials and materials used in manufacturing and construction.
-
-Resolution of operational issues related to the smooth operation of the enterprise.
-
-<h3>Project ManagerREMPRO, Minsk, Belarus</h3>
-<h4>June 2020 - May 2021</h4>
-<strong>Work in a holding of European companies developing business in the territory of the Republic of Belarus.</strong>
-
-Making operational decisions in planning development strategies, financing and implementation.
-
-Interaction with government agencies in terms of obtaining permits.
-
-Selection and supervision of contractors.
-
-Negotiating with partners and counterparties in terms of improving conditions, obtaining discounts and installments.
-
-Support for projects at all stages across the entire scope of issues.
-
-<h3>Deputy of Chief EngineerStroyInfoConsult, Minsk, Belarus</h3>
-<h4>May 2017 - June 2020</h4>
-<strong>Work in the customer's / general contractor's service.</strong>
-
-Full management, personnel selection and documentation for certification of an organization in the field of construction activities.
-
-Maintenance and selection of necessary documents for certification and technical competence of the organization.
-
-Management and control over the timely and high-quality execution of construction and installation works in accordance with the construction schedule of the facility (electrical work, communication networks, intercom, video surveillance).
-
-Planning, organization and control of works at the facility, obtaining permits, commissioning of facilities.
-
-Drawing up and adherence to the budget of projects, technical specifications for design, schedule of work.
-
-Checking the scope of work performed by subcontractors, signing certificates of work performed.
-
-Implementation of rationalization proposals, measures to save the project budget, improve performance;
-
-Keeping the necessary reporting on the progress of the project, maintaining the executive documentation.
-
-Assistance and interaction with subcontractors in the delivery of the facility.
-
-Performing the functions of a person in charge of heat, electricity and gas facilities at the facility.
-
-Administration and maintenance of the company website and local web.
-</div>
-
-<h3>Education</h3>
-<strong>Bachelor of Science in Power ManagmentBelarusian National Technical University at Minsk
-September 2011 - May 2017</strong>
-<h3>Key Skills</h3>
-<Ul>
-    <li>Knowledge in HTML, CSS, JS, Bootstrap, jQuery, SASS, React, Redux.</li>
-<li>Knowledge in AutoCad, PhotoShop, CorelDraw, Word, Excel.</li>
-<li>Certificate of completion of the course "Labor protection in construction."</li>
-<li>Certificate of completion of the course "Building and Construction Maintenance".</li>
-<li>Availability of qualification certificates of RUE "Belstroycenter" in the field of construction of objects: "Master (Arrangement of internal and external networks and power supply lines, transformer substations and distribution devices, arrangement of internal power supply systems).</li>
-<li>Availability of a "gas worker" certificate and a certificate of advanced training in "GAZ-INSTITUT" as a specialist responsible for the safe operation and repair of gas distribution systems and equipment, boilers.</li>
-<li>Group 5 electrical safety approval.</li>
-<li>Driving license category B, C. 10 years of experience.</li>
-<li>Critical thinking</li>
-<li>Responsible</li>
-<li>Multitasking abilities</li>
-<li>Analytical skills</li>
-<li>Conflict resolution</li>
-</Ul>
-<h3>Languages</h3>
-    <ul>
-            <li>Belarussian - native</li>
-           <li> Russian - native</li>
-           <li>Polish - beginner</li>
-           <li>English - upper intermediate level</li>
+            </div>
+        </footer>
     </div>
-    </main> 
+
+<!-- Some JavaScript for mobile responsive !-->
+
+<script>
+    const btnNavbarClass = document.querySelector('.btn-navbar-class');
+    const listLavbarClass = document.querySelector('.list-navbar-class');
+
+    const navbarFunction = function () {
+        btnNavbarClass.classList.toggle("active");
+        listLavbarClass.classList.toggle('active');
+    }
+
+    btnNavbarClass.addEventListener('click', navbarFunction)
+</script>
 </body>
 </html>
