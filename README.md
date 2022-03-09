@@ -1,4 +1,4 @@
 # rsschool-cv
 CV#1. Markdown &amp; Git
-https://arturkd.github.io/rsschool-cv/cv
-https://arturkd.github.io/rsschool-cv
+https://github.com/ArturKD/rsschool-cv/blob/gh-pages/cv.md
+https://github.com/ArturKD/rsschool-cv
