@@ -1,620 +1,159 @@
 /* colors */
 /* spicing */
 /* screen-width */
-/* line 1, ../../../WebstormProjects/rsschool-cv/sass/absracts/_reset.scss */
-*, *::before, *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
-/* line 6, ../../../WebstormProjects/rsschool-cv/sass/absracts/_reset.scss */
-li {
-  list-style: none;
-}
+li { list-style: none; }
 
-/* line 9, ../../../WebstormProjects/rsschool-cv/sass/absracts/_reset.scss */
-a {
-  text-decoration: none;
-  color: inherit;
-}
+a { text-decoration: none; color: inherit; }
 
-/* line 13, ../../../WebstormProjects/rsschool-cv/sass/absracts/_reset.scss */
-button {
-  border: none;
-  background: none;
-  font: inherit;
-  cursor: pointer;
-}
+button { border: none; background: none; font: inherit; cursor: pointer; }
 
-/* line 19, ../../../WebstormProjects/rsschool-cv/sass/absracts/_reset.scss */
-html {
-  font-family: 'Public sans', sans-serif;
-  scroll-behavior: smooth;
-  font-size: 10px;
-}
+html { font-family: 'Public sans', sans-serif; scroll-behavior: smooth; font-size: 10px; }
 
-/* line 24, ../../../WebstormProjects/rsschool-cv/sass/absracts/_reset.scss */
-img, span, svg {
-  display: block;
-}
+img, span, svg { display: block; }
 
-/* line 27, ../../../WebstormProjects/rsschool-cv/sass/absracts/_reset.scss */
-main {
-  overflow: hidden;
-}
+main { overflow: hidden; }
 
 /*mixins*/
-@keyframes fromLeft {
-  from {
-    right: 120%;
-  }
-  to {
-    right: -20px;
-  }
-}
+@keyframes fromLeft { from { right: 120%; }
+  to { right: -20px; } }
 
-@keyframes fromRightLogo {
-  from {
-    right: -200%;
-  }
-  to {
-    right: 126px;
-  }
-}
+@keyframes fromRightLogo { from { right: -200%; }
+  to { right: 126px; } }
 
-/* line 1, ../../../WebstormProjects/rsschool-cv/sass/layouts/_wrapper.scss */
-.wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 40px;
-}
+.wrapper { max-width: 1200px; margin: 0 auto; padding: 0 40px; }
 
-@media (max-width: 1024px) {
-  /* line 1, ../../../WebstormProjects/rsschool-cv/sass/layouts/_wrapper.scss */
-  .wrapper {
-    padding: 0 30px;
-  }
-}
+@media (max-width: 1024px) { .wrapper { padding: 0 30px; } }
 
-/* line 1, ../../../WebstormProjects/rsschool-cv/sass/layouts/_header.scss */
-header {
-  position: static;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10;
-  padding: 40px 0;
-}
+header { position: static; top: 0; left: 0; width: 100%; z-index: 10; padding: 40px 0; }
 
-/* line 9, ../../../WebstormProjects/rsschool-cv/sass/layouts/_header.scss */
-.wrapper_header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+.wrapper_header { display: flex; align-items: center; justify-content: space-between; }
 
-/* line 1, ../../../WebstormProjects/rsschool-cv/sass/layouts/_footer.scss */
-footer {
-  background-color: #274b69;
-}
+footer { background-color: #274b69; }
 
-/* line 4, ../../../WebstormProjects/rsschool-cv/sass/layouts/_footer.scss */
-.wrapper__footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  text-align: center;
-  padding: 60px 20px;
-}
+.wrapper__footer { display: flex; justify-content: space-between; align-items: center; flex-direction: row; text-align: center; padding: 60px 20px; }
 
-/* line 11, ../../../WebstormProjects/rsschool-cv/sass/layouts/_footer.scss */
-.wrapper__footer p {
-  font-size: 3rem;
-}
+.wrapper__footer p { font-size: 3rem; }
 
-@media (max-width: 767px) {
-  /* line 4, ../../../WebstormProjects/rsschool-cv/sass/layouts/_footer.scss */
-  .wrapper__footer {
-    background-color: #274b69;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    gap: 40px;
-  }
-}
+@media (max-width: 767px) { .wrapper__footer { background-color: #274b69; justify-content: center; align-items: center; flex-direction: column; text-align: center; gap: 40px; } }
 
-/* line 23, ../../../WebstormProjects/rsschool-cv/sass/layouts/_footer.scss */
-.footer__icon {
-  width: 40px;
-  height: 40px;
-}
+.footer__icon { width: 40px; height: 40px; }
 
-/* line 1, ../../../WebstormProjects/rsschool-cv/sass/base/_navigation.scss */
-.navigation {
-  display: flex;
-}
+.navigation { display: flex; }
 
-@media (max-width: 1024px) {
-  /* line 1, ../../../WebstormProjects/rsschool-cv/sass/base/_navigation.scss */
-  .navigation {
-    display: flex;
-    justify-content: space-between;
-  }
-}
+@media (max-width: 1024px) { .navigation { display: flex; justify-content: space-between; } }
 
-/* line 9, ../../../WebstormProjects/rsschool-cv/sass/base/_navigation.scss */
-.menu-button {
-  display: none;
-  background: none;
-}
+.menu-button { display: none; background: none; }
 
-/* line 12, ../../../WebstormProjects/rsschool-cv/sass/base/_navigation.scss */
-.menu-button span {
-  display: block;
-  background: #2d314d;
-  width: 40px;
-  height: 2px;
-  transition: 0.25s ease;
-}
+.menu-button span { display: block; background: #2d314d; width: 40px; height: 2px; transition: 0.25s ease; }
 
-/* line 19, ../../../WebstormProjects/rsschool-cv/sass/base/_navigation.scss */
-.menu-button_active {
-  position: absolute;
-  z-index: 2;
-  top: 50px;
-  right: 50px;
-}
+.menu-button_active { position: absolute; z-index: 2; top: 50px; right: 50px; }
 
-/* line 24, ../../../WebstormProjects/rsschool-cv/sass/base/_navigation.scss */
-.menu-button_active .one {
-  transform: rotate(45deg) translateY(8.5px);
-}
+.menu-button_active .one { transform: rotate(45deg) translateY(8.5px); }
 
-/* line 28, ../../../WebstormProjects/rsschool-cv/sass/base/_navigation.scss */
-.menu-button_active .two {
-  display: none;
-}
+.menu-button_active .two { display: none; }
 
-/* line 32, ../../../WebstormProjects/rsschool-cv/sass/base/_navigation.scss */
-.menu-button_active .three {
-  transform: rotate(-45deg) translateY(-8.5px);
-}
+.menu-button_active .three { transform: rotate(-45deg) translateY(-8.5px); }
 
-@media (max-width: 767px) {
-  /* line 9, ../../../WebstormProjects/rsschool-cv/sass/base/_navigation.scss */
-  .menu-button {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-}
+@media (max-width: 767px) { .menu-button { display: flex; flex-direction: column; gap: 10px; } }
 
-/* line 44, ../../../WebstormProjects/rsschool-cv/sass/base/_navigation.scss */
-.navigation__ul {
-  display: flex;
-  position: static;
-  padding: 0;
-  z-index: 0;
-  flex-direction: row;
-  gap: 10px;
-  opacity: 1;
-  pointer-events: all;
-}
+.navigation__ul { display: flex; position: static; padding: 0; z-index: 0; flex-direction: row; gap: 10px; opacity: 1; pointer-events: all; }
 
-/* line 53, ../../../WebstormProjects/rsschool-cv/sass/base/_navigation.scss */
-.navigation__ul a {
-  display: flex;
-  justify-content: flex-start;
-  font-size: 2rem;
-  text-align: center;
-  color: #9698a6;
-  padding: 15px 10px;
-  transition: .3s ease;
-}
+.navigation__ul a { display: flex; justify-content: flex-start; font-size: 2rem; text-align: center; color: #9698a6; padding: 15px 10px; transition: .3s ease; }
 
-/* line 61, ../../../WebstormProjects/rsschool-cv/sass/base/_navigation.scss */
-.navigation__ul a:hover {
-  color: #2d314d;
-  box-shadow: inset 0 -3px 0 #31d35c;
-}
+.navigation__ul a:hover { color: #2d314d; box-shadow: inset 0 -3px 0 #31d35c; }
 
-@media (max-width: 767px) {
-  /* line 44, ../../../WebstormProjects/rsschool-cv/sass/base/_navigation.scss */
-  .navigation__ul {
-    position: fixed;
-    background: white;
-    top: -1000px;
-    left: 20px;
-    right: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 100px 0 40px;
-    border-radius: 5px;
-    z-index: 0;
-    opacity: 0;
-    transition: 0.5s ease;
-    pointer-events: none;
-  }
-  /* line 83, ../../../WebstormProjects/rsschool-cv/sass/base/_navigation.scss */
-  .navigation__ul a {
-    color: #2d314d;
-    display: block;
-  }
-  /* line 87, ../../../WebstormProjects/rsschool-cv/sass/base/_navigation.scss */
-  .navigation__ul_active {
-    position: absolute;
-    top: 10px;
-    opacity: 1;
-    box-shadow: 0 0 100px 100px rgba(45, 49, 77, 0.2);
-    pointer-events: all;
-  }
-}
+@media (max-width: 767px) { .navigation__ul { position: fixed; background: white; top: -1000px; left: 20px; right: 20px; display: flex; flex-direction: column; align-items: center; gap: 20px; padding: 100px 0 40px; border-radius: 5px; z-index: 0; opacity: 0; transition: 0.5s ease; pointer-events: none; }
+  .navigation__ul a { color: #2d314d; display: block; }
+  .navigation__ul_active { position: absolute; top: 10px; opacity: 1; box-shadow: 0 0 100px 100px rgba(45, 49, 77, 0.2); pointer-events: all; } }
 
-/* line 1, ../../../WebstormProjects/rsschool-cv/sass/base/_buttons.scss */
-.button {
-  color: black;
-  background: white;
-  border: rgba(49, 211, 92, 0.8) 3px solid;
-  text-align: center;
-  cursor: pointer;
-  font-size: 2rem;
-  line-height: 2rem;
-  transition: 0.3s ease;
-  padding: 10px 50px;
-  border-radius: 5px;
-  margin: 10px 30px;
-}
+.button { color: black; background: white; border: rgba(49, 211, 92, 0.8) 3px solid; text-align: center; cursor: pointer; font-size: 2rem; line-height: 2rem; transition: 0.3s ease; padding: 10px 50px; border-radius: 5px; margin: 10px 30px; }
 
-/* line 13, ../../../WebstormProjects/rsschool-cv/sass/base/_buttons.scss */
-.button:hover {
-  background: rgba(49, 211, 92, 0.87);
-}
+.button:hover { background: rgba(49, 211, 92, 0.87); }
 
-/* line 1, ../../../WebstormProjects/rsschool-cv/sass/base/_header-logo.scss */
-.logo_header {
-  position: relative;
-  z-index: 2;
-}
+.logo_header { position: relative; z-index: 2; }
 
-/* line 1, ../../../WebstormProjects/rsschool-cv/sass/base/_contacts.scss */
-.contacts {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  justify-self: center;
-  text-align: left;
-}
+.contacts { display: flex; flex-direction: column; align-self: center; justify-self: center; text-align: left; }
 
-@media (max-width: 1024px) {
-  /* line 1, ../../../WebstormProjects/rsschool-cv/sass/base/_contacts.scss */
-  .contacts {
-    text-align: center;
-  }
-}
+@media (max-width: 1024px) { .contacts { text-align: center; } }
 
-/* line 11, ../../../WebstormProjects/rsschool-cv/sass/base/_contacts.scss */
-.contact__title {
-  font-size: 3rem;
-  margin-bottom: 10px;
-  color: #274b69;
-  display: block;
-  cursor: default;
-}
+.contact__title { font-size: 3rem; margin-bottom: 10px; color: #274b69; display: block; cursor: default; }
 
-/* line 19, ../../../WebstormProjects/rsschool-cv/sass/base/_contacts.scss */
-.contact__ul {
-  color: rgba(39, 75, 105, 0.79);
-  font-size: 1.5rem;
-  text-align: left;
-  line-height: 2;
-}
+.contact__ul { color: rgba(39, 75, 105, 0.79); font-size: 1.5rem; text-align: left; line-height: 2; }
 
-/* line 24, ../../../WebstormProjects/rsschool-cv/sass/base/_contacts.scss */
-.contact__ul li:hover {
-  color: #274b69;
-}
+.contact__ul li:hover { color: #274b69; }
 
-@media (max-width: 1024px) {
-  /* line 19, ../../../WebstormProjects/rsschool-cv/sass/base/_contacts.scss */
-  .contact__ul {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    text-align: center;
-    font-size: 2rem;
-  }
-}
+@media (max-width: 1024px) { .contact__ul { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; text-align: center; font-size: 2rem; } }
 
-/* line 1, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-.carousel_wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+.carousel_wrapper { display: flex; flex-direction: column; justify-content: center; align-items: center; }
 
-/* line 8, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-.carousel {
-  padding: 100px 0;
-  width: 100%;
-  display: flex;
-}
+.carousel { padding: 100px 0; width: 100%; display: flex; }
 
-@media (max-width: 1024px) {
-  /* line 8, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-  .carousel {
-    padding: 50px;
-  }
-}
+@media (max-width: 1024px) { .carousel { padding: 50px; } }
 
-/* line 18, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-.carousel__cards {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  width: 100%;
-}
+.carousel__cards { display: flex; justify-content: space-between; align-items: stretch; width: 100%; }
 
-@media (max-width: 1024px) {
-  /* line 18, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-  .carousel__cards {
-    flex-direction: column-reverse;
-    gap: 60px;
-  }
-}
+@media (max-width: 1024px) { .carousel__cards { flex-direction: column-reverse; gap: 60px; } }
 
-/* line 28, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-.carousel__card {
-  display: none;
-}
+.carousel__card { display: none; }
 
-/* line 32, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-.carousel__image {
-  display: none;
-  position: relative;
-  top: -40px;
-  right: -30px;
-  width: 100%;
-  max-width: 800px;
-  z-index: 10;
-  animation-name: fromLeft;
-  animation-duration: 0.5s;
-}
+.carousel__image { display: none; position: relative; top: -40px; right: -30px; width: 100%; max-width: 800px; z-index: 10; animation-name: fromLeft; animation-duration: 0.5s; }
 
-/* line 42, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-.carousel__image_active {
-  display: flex;
-  align-self: flex-end;
-}
+.carousel__image_active { display: flex; align-self: flex-end; }
 
 /*links*/
-/* line 49, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-.carousel__overlays {
-  width: 100%;
-}
+.carousel__overlays { width: 100%; }
 
-/* line 53, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-.carousel__bar {
-  display: none;
-  width: 100%;
-  height: 100%;
-  background: var(--bar-color);
-  transition: ease-in 0.3s;
-  padding: 10px;
-}
+.carousel__bar { display: none; width: 100%; height: 100%; background: var(--bar-color); transition: ease-in 0.3s; padding: 10px; }
 
-/* line 60, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-.carousel__bar_active {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
+.carousel__bar_active { display: flex; flex-direction: column; align-items: flex-start; }
 
-/* line 67, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-.description {
-  display: flex;
-  color: #2d314d;
-  font-size: 1.5rem;
-  line-height: 3rem;
-  opacity: 1;
-  padding: 30px;
-}
+.description { display: flex; color: #2d314d; font-size: 1.5rem; line-height: 3rem; opacity: 1; padding: 30px; }
 
 /*links*/
-/* line 78, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-.carousel__links {
-  margin-top: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 30px;
-  align-items: flex-start;
-  list-style-type: none;
-  padding-left: 50px;
-  flex-basis: 35%;
-}
+.carousel__links { margin-top: 0; display: flex; flex-direction: column; justify-content: flex-start; gap: 30px; align-items: flex-start; list-style-type: none; padding-left: 50px; flex-basis: 35%; }
 
-@media (max-width: 1024px) {
-  /* line 78, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-  .carousel__links {
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-left: 0;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-}
+@media (max-width: 1024px) { .carousel__links { flex-direction: row; justify-content: space-evenly; padding-left: 0; flex-wrap: wrap; gap: 20px; } }
 
-/* line 97, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-.carousel__link {
-  cursor: pointer;
-  font-size: 2rem;
-  line-height: 2;
-  text-decoration: none;
-  border-bottom: transparent 3px solid;
-  color: #9698a6;
-  transition: 0.3s;
-  padding: 10px 0;
-}
+.carousel__link { cursor: pointer; font-size: 2rem; line-height: 2; text-decoration: none; border-bottom: transparent 3px solid; color: #9698a6; transition: 0.3s; padding: 10px 0; }
 
-/* line 106, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-.carousel__link:hover {
-  color: #2d314d;
-  border-bottom: #31d35c 3px solid;
-}
+.carousel__link:hover { color: #2d314d; border-bottom: #31d35c 3px solid; }
 
-/* line 110, ../../../WebstormProjects/rsschool-cv/sass/base/_carousel.scss */
-.carousel__link_active {
-  color: #2d314d;
-  border-bottom: #31d35c 3px solid;
-  pointer-events: none;
-}
+.carousel__link_active { color: #2d314d; border-bottom: #31d35c 3px solid; pointer-events: none; }
 
-/* line 1, ../../../WebstormProjects/rsschool-cv/sass/base/_title.scss */
-.title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 400px;
-}
+.title { display: flex; flex-direction: column; justify-content: center; align-items: center; max-width: 400px; }
 
-/* line 8, ../../../WebstormProjects/rsschool-cv/sass/base/_title.scss */
-.title__image {
-  align-self: center;
-  height: 40px;
-  width: 40px;
-}
+.title__image { align-self: center; height: 40px; width: 40px; }
 
-/* line 3, ../../../WebstormProjects/rsschool-cv/sass/components/_main-section.scss */
-.wrapper_main-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 150px;
-  padding-bottom: 200px;
-  gap: 50px;
-}
+.wrapper_main-section { display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding-top: 150px; padding-bottom: 200px; gap: 50px; }
 
-@media (max-width: 1024px) {
-  /* line 3, ../../../WebstormProjects/rsschool-cv/sass/components/_main-section.scss */
-  .wrapper_main-section {
-    padding-top: 50px;
-    padding-bottom: 100px;
-    flex-direction: column;
-    row-gap: 50px;
-  }
-}
+@media (max-width: 1024px) { .wrapper_main-section { padding-top: 50px; padding-bottom: 100px; flex-direction: column; row-gap: 50px; } }
 
-/* line 18, ../../../WebstormProjects/rsschool-cv/sass/components/_main-section.scss */
-.main-section__title {
-  color: #2d314d;
-  font-size: 6rem;
-}
+.main-section__title { color: #2d314d; font-size: 6rem; }
 
-/* line 23, ../../../WebstormProjects/rsschool-cv/sass/components/_main-section.scss */
-.main-section__position {
-  font-size: 3.5rem;
-  color: rgba(39, 75, 105, 0.79);
-}
+.main-section__position { font-size: 3.5rem; color: rgba(39, 75, 105, 0.79); }
 
-/* line 28, ../../../WebstormProjects/rsschool-cv/sass/components/_main-section.scss */
-.main-section__information {
-  display: flex;
-  max-width: 700px;
-  flex-direction: column;
-  align-items: start;
-}
+.main-section__information { display: flex; max-width: 700px; flex-direction: column; align-items: start; }
 
-/* line 33, ../../../WebstormProjects/rsschool-cv/sass/components/_main-section.scss */
-.main-section__information p {
-  color: rgba(18, 35, 49, 0.79);
-  padding: 20px 0;
-  font-size: 1.5rem;
-}
+.main-section__information p { color: rgba(18, 35, 49, 0.79); padding: 20px 0; font-size: 1.5rem; }
 
-@media (max-width: 1024px) {
-  /* line 28, ../../../WebstormProjects/rsschool-cv/sass/components/_main-section.scss */
-  .main-section__information {
-    align-items: center;
-    text-align: center;
-  }
-}
+@media (max-width: 1024px) { .main-section__information { align-items: center; text-align: center; } }
 
-/* line 43, ../../../WebstormProjects/rsschool-cv/sass/components/_main-section.scss */
-.main-section__image {
-  padding-right: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
+.main-section__image { padding-right: 80px; display: flex; justify-content: center; align-items: flex-start; }
 
-@media (max-width: 1024px) {
-  /* line 43, ../../../WebstormProjects/rsschool-cv/sass/components/_main-section.scss */
-  .main-section__image {
-    padding-right: 0;
-    flex-basis: 100%;
-  }
-}
+@media (max-width: 1024px) { .main-section__image { padding-right: 0; flex-basis: 100%; } }
 
-/* line 1, ../../../WebstormProjects/rsschool-cv/sass/components/_information.scss */
-.information {
-  padding: 50px 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  row-gap: 30px;
-}
+.information { padding: 50px 0; display: flex; flex-wrap: wrap; justify-content: space-between; row-gap: 30px; }
 
-@media (max-width: 767px) {
-  /* line 1, ../../../WebstormProjects/rsschool-cv/sass/components/_information.scss */
-  .information {
-    flex-direction: column;
-  }
-}
+@media (max-width: 767px) { .information { flex-direction: column; } }
 
-/* line 11, ../../../WebstormProjects/rsschool-cv/sass/components/_information.scss */
-.section {
-  flex-basis: 40%;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
+.section { flex-basis: 40%; display: flex; flex-direction: column; gap: 15px; }
 
-/* line 16, ../../../WebstormProjects/rsschool-cv/sass/components/_information.scss */
-.section ul li {
-  list-style: circle;
-  font-size: 1.5rem;
-  text-align: left;
-  margin-bottom: 5px;
-}
+.section ul li { list-style: circle; font-size: 1.5rem; text-align: left; margin-bottom: 5px; }
 
-/* line 23, ../../../WebstormProjects/rsschool-cv/sass/components/_information.scss */
-.section__title {
-  color: #2d314d;
-  font-size: 3.2rem;
-  font-weight: 400;
-  text-align: center;
-}
+.section__title { color: #2d314d; font-size: 3.2rem; font-weight: 400; text-align: center; }
 
-/* line 29, ../../../WebstormProjects/rsschool-cv/sass/components/_information.scss */
-.section__text {
-  color: #2d314d;
-  font-size: 1.5rem;
-  line-height: 1.7;
-  text-align: left;
-}
+.section__text { color: #2d314d; font-size: 1.5rem; line-height: 1.7; text-align: left; }
 
-/* line 34, ../../../WebstormProjects/rsschool-cv/sass/components/_information.scss */
-.section__text p {
-  padding: 5px;
-}
-
-/*# sourceMappingURL=style.css.map */
+.section__text p { padding: 5px; }
