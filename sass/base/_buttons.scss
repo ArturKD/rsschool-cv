@@ -1,0 +1,17 @@
+.button {
+  color: black;
+  background: white;
+  border: hsla(136, 65%, 51%, 0.8) 3px solid;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2rem;
+  line-height: 2rem;
+  transition: 0.3s ease;
+  padding: 10px 50px;
+  border-radius: 5px;
+  margin: 10px 30px;
+  &:hover {
+    background: hsla(136, 65%, 51%, 0.87);
+  }
+}
+

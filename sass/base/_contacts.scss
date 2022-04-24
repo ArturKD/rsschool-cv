@@ -1,0 +1,35 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  text-align: left;
+  @include media-laptop {
+    text-align: center;
+  }
+}
+.contact__title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: rgba(39, 75, 105, 1);
+  display: block;
+  cursor: default;
+}
+
+.contact__ul {
+  color: rgba(39, 75, 105, 0.79);
+  font-size: 1.5rem;
+  text-align: left;
+  line-height: 2;
+  li:hover {
+    color: rgba(39, 75, 105, 1);
+  }
+  @include media-laptop {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 2rem;
+  }
+}

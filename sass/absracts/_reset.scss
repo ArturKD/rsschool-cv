@@ -1,0 +1,29 @@
+*, *::before, *::after {
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  border:     none;
+  background: none;
+  font:       inherit;
+  cursor:     pointer;
+}
+html {
+  font-family: 'Public sans', sans-serif;
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+img, span, svg {
+  display: block;
+}
+main {
+  overflow: hidden;
+}

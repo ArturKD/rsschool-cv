@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="143a5f1d-4906-4360-86cd-856825ca7a14" name="Changes" comment="Added portfolio gallery.">
+      <change afterPath="$PROJECT_DIR$/sass/absracts/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/absracts/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/absracts/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/absracts/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/base/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/base/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/base/_contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/base/_header-logo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/base/_navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/base/_title.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/components/_information.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/components/_main-section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/layouts/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/layouts/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/layouts/_wrapper.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/human-r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/morse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sort.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +35,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -49,8 +70,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\artur\WebstormProjects\rsschool-cv\sass" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="CV" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/CV#3/index.html" useBuiltInWebServerPort="true">
@@ -86,6 +113,8 @@
       <workItem from="1646845475309" duration="4433000" />
       <workItem from="1646850643212" duration="399000" />
       <workItem from="1646852114255" duration="153000" />
+      <workItem from="1650711199217" duration="39134000" />
+      <workItem from="1650831798444" duration="5589000" />
     </task>
     <task id="LOCAL-00001" summary="Added portfolio gallery.">
       <created>1646849728608</created>

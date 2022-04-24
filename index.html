@@ -14,206 +14,190 @@
 </head>
 <body>
 <!-- Header !-->
-    <div class="container-class">
         <header>
-            <nav class="navbar-class">
-                <img src="./img/cv.png" alt="cv icon" width="40" height="40">
-                <button class="btn-navbar-class">
-                    <span class="one"></span>
-                    <span class="two"></span>
-                    <span class="three"></span>
-                </button>
-                <ul class="list-navbar-class">
-                    <li><a href="#projects">Front-end projects</a></li>
-                    <li><a href="#keyskills">Key skills</a></li>
-                    <li><a href="#experience">Professional experience</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#languages">Languages</a></li>
-                </ul>
-            </nav>
+            <div class="wrapper wrapper_header">
+                <a href="./img/CV_Eng_Koshal.pdf" download="CV_Artur_Koshal"><img class="logo logo_header" src="./img/cv.png" alt="cv icon" width="40" height="40"></a>
+                <nav class="navigation">
+                    <button class="menu-button">
+                        <span class="one"></span>
+                        <span class="two"></span>
+                        <span class="three"></span>
+                    </button>
+                    <ul class="navigation__ul">
+                        <li class="navigation__li"><a href="#projects">Front-end projects</a></li>
+                        <li class="navigation__li"><a href="#keyskills">Key skills</a></li>
+                        <li class="navigation__li"><a href="#experience">Professional experience</a></li>
+                        <li class="navigation__li"><a href="#education">Education</a></li>
+                        <li class="navigation__li"><a href="#languages">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-<!-- Main !-->
-        <div class="main-container-class">
-             <main>
+        <main>
             <!-- Main information Section !-->
                 <section class="main-section">
-                    <div class="image-main-container-class">
-                        <img src="./img/logo.png" alt="Picture about myself" class="main-image-class" width="180" height="200">
-                    </div>
-                    <div class="main-information-container-class">
-                        <h1 class="main-title"><b>Artur Koshal</b></h1>
-                        <h2 class="main-position">Junior FrontEnd Developer</h2>
-                        <p class="main-text">
-                            To seek and maintain a full-time position that offers professional challenges utilizing interpersonal skills, excellent time management and problem-solving skills.
-                        </p>
-                    </div>
-                    <div class="main-contact-container">
-                        <div class="contact-button">
-                            <p>Contacts</p>
+                    <div class="wrapper wrapper_main-section">
+                        <div class="main-section__image">
+                            <img src="./img/logo.png" alt="Picture about myself" class="main-image-class" width="180" height="200">
                         </div>
-                        <ul class="main-contact-list">
-                            <li>+48571085191</li>
-                            <li>arturkoshal@gmail.com</li>
-                            <li><a href="https://github.com/ArturKD">Github</a></li>
-                            <li><a href="https://t.me/KoshalArtur">Telegram</a></li>
-                            <li>Warsaw. Poland.</li>
-                        </ul>
-                    </div>
-
-                </section>
-
-            <!-- About Me Section !-->
-                 <section class="about-me-container-class">
-                     <!-- Projects section !-->
-                    <div class="project-class" id="projects">
-                        <img src="./img/code_icon.svg" alt="icon for code example" class="section-icon">
-                        <h2 class="section-title-class">Front-end projects</h2>
-                        <div class="cards">
-                            <div class="card">
-                                <img src="./img/portfolio.jpg" alt="Portfolio" class="card-image">
-                                <img src="./img/unsplash.jpg" alt="Image gallery" class="card-image">
-                                <img src="./img/2048.jpg" alt="2048" class="card-image">
-                                <img src="./img/human-r.jpg" alt="Web Storm" class="card-image">
-                                <img src="./img/morse.jpg" alt="Web Storm" class="card-image">
-                                <img src="./img/sort.jpg" alt="Web Storm" class="card-image">
-                            </div>
-                            <div class="overlays">
-                                <div class="bar" style="--bar-color: #c6ccd8;">
-                                    <a href="https://rolling-scopes-school.github.io/arturkd-JSFEPRESCHOOL/portfolio/">
-                                        <div class="button">Link</div>
-                                    </a>
-                                </div>
-                                <div class="bar" style="--bar-color: #85a1c1;">
-                                    <a href="https://rolling-scopes-school.github.io/arturkd-JSFEPRESCHOOL/">
-                                    <div class="button">Link</div>
-                                    </a>
-                                </div>
-                                <div class="bar" style="--bar-color: #274b69;">
-                                    <a href="https://rolling-scopes-school.github.io/arturkd-JSFEPRESCHOOL/2048app/">
-                                    <div class="button">Link</div>
-                                    </a>
-                                </div>
-                                <div class="bar" style="--bar-color: #c6ccd8;">
-                                    <a href="https://github.com/ArturKD/morse-decoder">
-                                    <div class="button">Link on Git</div>
-                                    </a>
-                                </div>
-                                <div class="bar" style="--bar-color: #85a1c1;">
-                                    <a href="https://github.com/ArturKD/human-readable-number">
-                                    <div class="button">Link on Git</div>
-                                    </a>
-                                </div>
-                                <div class="bar" style="--bar-color: #274b69;">
-                                    <a href="https://github.com/ArturKD/towel-sort">
-                                    <div class="button">Link on Git</div>
-                                    </a>
-                                </div>
-                            </div>
-                            <ul class="nav-links">
-                                <li><a  class="nav-link">Portfolio</a></li>
-                                <li><a  class="nav-link">Image Gallery</a></li>
-                                <li><a  class="nav-link">2048 Application</a></li>
-                                <li><a  class="nav-link">Morse Decoder</a></li>
-                                <li><a  class="nav-link">Human readable number</a></li>
-                                <li><a  class="nav-link">Towel Sort</a></li>
+                        <div class="main-section__information">
+                            <h1 class="main-section__title"><b>Artur Koshal</b></h1>
+                            <h2 class="main-section__position">Junior FrontEnd Developer</h2>
+                            <p class="main-section__text">
+                                To seek and maintain a full-time position that offers professional challenges utilizing interpersonal skills, excellent time management and problem-solving skills.
+                            </p>
+                        </div>
+                        <div class="contacts">
+                            <p class="contact__title">Contacts</p>
+                            <ul class="contact__ul">
+                                <li><a href="tel:+48571085191">+48571085191</a></li>
+                                <li><a href="mailto:email@shelter.com">arturkoshal@gmail.com</a></li>
+                                <li><a href="https://github.com/ArturKD">Github</a></li>
+                                <li><a href="https://t.me/KoshalArtur">Telegram</a></li>
+                                <li><a href="https://goo.gl/maps/NmsE7qRjLeFd8Pnx6" target="_blank">Warsaw. Poland.</a></li>
                             </ul>
                         </div>
-                        <div class="bar-description">
-                            <div class="description">
-                                <ul>
-                                    <li>Valid semantic adaptive layout, export styles and graphics from Figma, worked with PerfectPixel.</li>
-                                    <li>Changing images in the portfolio section. Page translation into two languages.</li>
-                                    <li>Save theme and language in the local storage. Cashing portfolio images.</li>
-                                    <li>Ability to switch between light and dark theme. Custom video player.</li>
-                                </ul>
-                            </div>
-                            <div class="description">
-                                <ul>
-                                    <li>Asynchronous JavaScript. API. Requests to the server. Work with data.</li>
-                                    <li>Displaying data on a page and generation elements with JavaScript.</li>
-                                </ul>
-                            </div>
-                            <div class="description">
-                                <ul>
-                                    <li>Game logic. Moves, movement of pieces, other actions of the player are subject to certain rules.</li>
-                                    <li>The results of the last 10 games are stored in local storage. There is a table of records, which saves the results of the previous 10 games.</li>
-                                </ul>
-                            </div>
-                            <div class="description">
-                                <ul>
-                                    <li>Wrote a function, that decodes Morse code and returns a string. Solution in src/index.js</li>
-                                </ul>
-                            </div>
-                            <div class="description">
-                                <ul>
-                                    <li>Wrote function toReadable that converts given number, to readable string. Solution in src/index.js</li>
-                                </ul>
-                            </div>
-                            <div class="description">
-                                <ul>
-                                    <li> Wrote towelSort function that expect matrix of any shape and return sorted array. Solution in src/index.js</li>
-                                </ul>
-                            </div>
-
-                        </div>
                     </div>
-                     <div class="information">
-                     <!-- About Me Section !-->
-                        <div class="section-class" id="experience">
-                            <img src="./img/icon-experience.svg" alt="icon for experience" class="section-icon">
-                            <h2 class="section-title-class">Professional experience</h2>
-                            <div class="section-text-class">
-                                <ul>
-                                    <li>
-                                        <p><strong>Director.</strong> Company Eurostore, Minsk, Belarus</p>
-                                        <p>May 2021 - December 2021</p>
-                                        <p>Work in a start-up from a holding company to open a chain of convenience stores.</p>
-                                    </li>
-                                    <li>
-                                    <p><strong>Project Manager.</strong> Company REMPRO, Minsk, Belarus.</p>
-                                    <p>June 2020 - May 2021</p>
-                                    <p>Work in a holding of European companies developing business in the territory of the Republic of Belarus.</p>
-                                    </li>
-                                    <li>
-                                        <p><strong>Deputy of Chief Engineer.</strong> Company StroyInfoConsult, Minsk, Belarus.</p>
-                                        <p>May 2017 - June 2020</p>
-                                        <p>Work in the customer's / general contractor's service.</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                         <div class="section-class" id="keyskills">
-                             <img src="./img/icon-skill.svg" alt="icon for professional skills" class="section-icon">
-                             <h2 class="section-title-class">Key skills</h2>
-                             <ul>
-                                 <li>Knowledge in HTML, CSS, JS, Bootstrap, jQuery, SASS, Git.</li>
-                                 <li>Knowledge of Responsive Web Design and creating websites and applications for mobile devices.</li>
-                                 <li>Knowledge in AutoCad, PhotoShop, CorelDraw, Word, Excel.</li>
-                                 <li>Critical thinking</li>
-                                 <li>Responsibility</li>
-                                 <li>Multitasking abilities</li>
-                                 <li>Analytical skills</li>
-                                 <li>Conflict resolution</li>
-                             </ul>
+                </section>
+            <!-- About Me Section !-->
+                 <section class="about">
+                     <div class="wrapper carousel_wrapper">
+                         <div class="title">
+                             <img src="./img/code_icon.svg" alt="icon for code example" class="title__image">
+                             <h2 class="title__text">Front-end projects</h2>
                          </div>
-                         <div class="section-class" id="education">
-                             <img src="./img/icon-education.svg" alt="icon for education" class="section-icon">
-                             <h2 class="section-title-class">Education</h2>
-                             <div class="section-text-class">
-                                 <strong>Bachelor of Science in Power Managment.</strong>
-                                 <p>Belarusian National Technical University at Minsk, Belarus.</p>
-                                 <p>September 2011 - May 2017</p>
+                         <div class="carousel" id="carousel">
+                             <div class="carousel__cards">
+                                 <div class="carousel__overlays">
+                                     <div class="carousel__bar" style="--bar-color: #c6ccd8;">
+                                         <img src="./img/portfolio.jpg" alt="Portfolio" class="carousel__image">
+                                         <div class="description">
+                                             <ul>
+                                                 <li>Valid semantic adaptive layout, export styles and graphics from Figma, worked with PerfectPixel.</li>
+                                                 <li>Changing images in the portfolio section. Page translation into two languages.</li>
+                                                 <li>Save theme and language in the local storage. Cashing portfolio images.</li>
+                                                 <li>Ability to switch between light and dark theme. Custom video player.</li>
+                                             </ul>
+                                         </div>
+                                         <a href="https://rolling-scopes-school.github.io/arturkd-JSFEPRESCHOOL/portfolio/" class="button">
+                                             Link
+                                         </a>
+                                     </div>
+                                     <div class="carousel__bar" style="--bar-color: #c6ccd8;">
+                                         <img src="./img/unsplash.jpg" alt="Image gallery" class="carousel__image">
+                                         <div class="description">
+                                             <ul>
+                                                 <li>I used asynchronous JavaScript. API. Requests to the server. Work with data.</li>
+                                                 <li>Displaying data on a page and generation elements with JavaScript.</li>
+                                             </ul>
+                                         </div>
+                                         <a href="https://rolling-scopes-school.github.io/arturkd-JSFEPRESCHOOL/" class="button">
+                                             Link
+                                         </a>
+                                     </div>
+                                     <div class="carousel__bar" style="--bar-color: #c6ccd8;">
+                                         <img src="./img/2048.jpg" alt="2048" class="carousel__image">
+                                         <div class="description">
+                                             <ul>
+                                                 <li>Game logic. Moves, movement of pieces, other actions of the player are subject to certain rules.</li>
+                                                 <li>The results of the last 10 games are stored in local storage. There is a table of records, which saves the results of the previous 10 games.</li>
+                                             </ul>
+                                         </div>
+                                         <a href="https://rolling-scopes-school.github.io/arturkd-JSFEPRESCHOOL/2048app/" class="button">
+                                             Link
+                                         </a>
+                                     </div>
+                                     <div class="carousel__bar" style="--bar-color: #c6ccd8;">
+                                         <img src="./img/wp.jpg" alt="Web page screenshot" class="carousel__image">
+                                         <div class="description">
+                                             <ul>
+                                                 <li>Used Sass and vanilla JS.</li>
+                                                 <li>Integrate website with WordPress.</li>
+                                             </ul>
+                                         </div>
+                                         <a href="https://arturkd.github.io/for_portfolio/" class="button">
+                                             Link
+                                         </a>
+                                     </div>
+                                     <div class="carousel__bar" style="--bar-color: #85a1c1;">
+                                         <img src="./img/shelter.jpg" alt="Web Storm" class="carousel__image">
+                                         <div class="description">
+                                             <ul>
+                                                 <li>Built responsive and adaptive webpages with Sass.</li>
+                                                 <li>Built carousel, popup pagination with vanilla js. Worked with JSON.</li>
+                                             </ul>
+                                         </div>
+                                         <a href="https://rolling-scopes-school.github.io/arturkd-JSFE2022Q1/shelter/" class="button">
+                                             Link
+                                         </a>
+                                     </div>
+                                 </div>
+                                 <ul class="carousel__links">
+                                     <li><a  class="carousel__link">Portfolio Landing</a></li>
+                                     <li><a  class="carousel__link">Image Gallery</a></li>
+                                     <li><a  class="carousel__link">2048 Application</a></li>
+                                     <li><a  class="carousel__link">Company WebSite</a></li>
+                                     <li><a  class="carousel__link">Shelter Landing</a></li>
+                                 </ul>
                              </div>
                          </div>
-                         <div class="section-class" id="languages">
-                             <img src="./img/google-translate.svg" alt="icon for language" class="section-icon">
-                             <h2 class="section-title-class">Languages</h2>
-                             <ul>
-                                 <li>Russian - native</li>
-                                 <li>Belarussian - native</li>
-                                 <li>English - upper intermediate level</li>
-                                 <li>Polish - beginner</li>
-                             </ul>
+                     </div>
+                     <div class="wrapper wrapper_information">
+                         <div class="information">
+                             <!-- About Me Section !-->
+                             <div class="section" id="experience">
+                                 <img src="./img/icon-experience.svg" alt="icon for experience" class="title__image">
+                                 <h2 class="section__title">Professional experience</h2>
+                                 <div class="section__text">
+                                     <ul>
+                                         <li>
+                                             <p><strong>Director.</strong><i> May 2021 - December 2021</i><br> Company Eurostore, Minsk, Belarus</p>
+                                             <p>Work in a start-up from a holding company to open a chain of convenience stores.</p>
+                                         </li>
+                                         <li>
+                                             <p><strong>Project Manager.</strong><i> June 2020 - May 2021</i><br> Company REMPRO, Minsk, Belarus.</p>
+                                             <p>Work in a holding of European companies developing business in the territory of the Republic of Belarus.</p>
+                                         </li>
+                                         <li>
+                                             <p><strong>Deputy of Chief Engineer.</strong><i> May 2017 - June 2020</i><br> Company StroyInfoConsult, Minsk, Belarus.</p>
+                                             <p>Work in the customer's / general contractor's service.</p>
+                                         </li>
+                                     </ul>
+                                 </div>
+                             </div>
+                             <div class="section" id="keyskills">
+                                 <img src="./img/icon-skill.svg" alt="icon for professional skills" class="title__image">
+                                 <h2 class="section__title">Key skills</h2>
+                                 <ul>
+                                     <li>Knowledge in HTML, CSS, JS, Bootstrap, jQuery, SASS, Git.</li>
+                                     <li>Knowledge of Responsive Web Design and creating websites and applications for mobile devices.</li>
+                                     <li>Knowledge in AutoCad, PhotoShop, CorelDraw, Word, Excel.</li>
+                                     <li>Critical thinking</li>
+                                     <li>Responsibility</li>
+                                     <li>Multitasking abilities</li>
+                                     <li>Analytical skills</li>
+                                     <li>Conflict resolution</li>
+                                 </ul>
+                             </div>
+                             <div class="section" id="education">
+                                 <img src="./img/icon-education.svg" alt="icon for education" class="title__image">
+                                 <h2 class="section__title">Education</h2>
+                                 <div class="section__text">
+                                     <strong>Bachelor of Science in Power Managment.</strong>
+                                     <p>Belarusian National Technical University at Minsk, Belarus.</p>
+                                     <p>September 2011 - May 2017</p>
+                                 </div>
+                             </div>
+                             <div class="section" id="languages">
+                                 <img src="./img/google-translate.svg" alt="icon for language" class="title__image">
+                                 <h2 class="section__title">Languages</h2>
+                                 <ul>
+                                     <li>Russian - native</li>
+                                     <li>Belarussian - native</li>
+                                     <li>English - upper intermediate level</li>
+                                     <li>Polish - beginner</li>
+                                 </ul>
+                             </div>
                          </div>
                      </div>
                  </section>
@@ -223,19 +207,18 @@
         <!-- Footer Section !-->
 
         <footer>
-            <div class="footer-section-class">
-                <div class="github-footer-class">
+            <div class="wrapper wrapper__footer">
+                <div class="footer__icon">
                     <a href="https://github.com/arturkd"><img src="./img/icon-github.svg" alt="github icon"></a>
                 </div>
                 <div>
                     <p>2022</p>
                 </div>
-                <div>
-                    <a href="https://rs.school/js/"><img src="./img/rs_school_js.svg" alt="RSS Image" width="100"></a>
+                <div class="footer__icon">
+                    <a href="https://www.codewars.com/users/ArturKD"><img src="./img/codewars-svgrepo-com.svg" alt="CodeWars Icon" width="50"></a>
                 </div>
             </div>
         </footer>
-    </div>
 
 <!-- Some JavaScript for mobile responsive !-->
 

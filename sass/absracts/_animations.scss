@@ -1,0 +1,16 @@
+@keyframes fromLeft {
+  from {
+    right: 120%;
+  }
+  to {
+    right: -20px;
+  }
+}
+@keyframes fromRightLogo {
+  from {
+    right: -200%;
+  }
+  to {
+    right: 126px;
+  }
+}
