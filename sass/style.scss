@@ -1,0 +1,26 @@
+//---------abstracts----------//
+@import "absracts/variables";
+@import "absracts/reset";
+@import "absracts/mixins";
+@import "absracts/animations";
+
+//---------layouts----------//
+@import "layouts/wrapper";
+@import "layouts/header";
+@import "layouts/footer";
+
+//---------base----------//
+@import "base/navigation";
+@import "base/buttons";
+@import "base/header-logo";
+@import "base/contacts";
+@import "base/carousel";
+@import "base/title";
+
+//---------components----------//
+@import "components/main-section";
+@import "components/information";
+
+
+
+
