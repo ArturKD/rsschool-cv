@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="143a5f1d-4906-4360-86cd-856825ca7a14" name="Changes" comment="Added portfolio gallery.">
-      <change afterPath="$PROJECT_DIR$/sass/absracts/_animations.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/absracts/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/absracts/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/absracts/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/base/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/base/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/base/_contacts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/base/_header-logo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/base/_navigation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/base/_title.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/components/_information.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/components/_main-section.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/layouts/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/layouts/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/layouts/_wrapper.scss" afterDir="false" />
+    <list default="true" id="143a5f1d-4906-4360-86cd-856825ca7a14" name="Changes" comment="Feat: Added sass.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/human-r.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/morse.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/img/sort.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +97,7 @@
       <workItem from="1646850643212" duration="399000" />
       <workItem from="1646852114255" duration="153000" />
       <workItem from="1650711199217" duration="39134000" />
-      <workItem from="1650831798444" duration="5589000" />
+      <workItem from="1650831798444" duration="6346000" />
     </task>
     <task id="LOCAL-00001" summary="Added portfolio gallery.">
       <created>1646849728608</created>
@@ -137,7 +120,28 @@
       <option name="project" value="LOCAL" />
       <updated>1646850815220</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Feat: Added sass.">
+      <created>1650838265546</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650838265546</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Feat: Added sass.">
+      <created>1650838294103</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650838294103</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Feat: Added sass.">
+      <created>1650838588598</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650838588598</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +160,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added portfolio gallery." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added portfolio gallery." />
+    <MESSAGE value="Feat: Added sass." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Added sass." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
